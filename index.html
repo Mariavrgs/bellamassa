@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bella Massa – A Melhor Pizza Artesanal da Cidade</title>
+  <meta name="description" content="Bella Massa: pizzas artesanais feitas com ingredientes selecionados, massa fina crocante e muito amor. Peça agora pelo WhatsApp e receba em até 40 minutos." />
+  <meta name="keywords" content="pizza artesanal, pizzaria premium, delivery pizza, Bella Massa" />
+  <meta property="og:title" content="Bella Massa – Pizza Artesanal Premium" />
+  <meta property="og:description" content="A melhor pizza artesanal da cidade. Peça agora pelo WhatsApp!" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">Bella<span>Massa</span></a>
+  <ul class="nav-links">
+    <li><a href="#cardapio">Cardápio</a></li>
+    <li><a href="#diferenciais">Diferenciais</a></li>
+    <li><a href="#depoimentos">Avaliações</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:.75rem;">
+    <button class="nav-cart-btn" id="cartToggle" aria-label="Abrir carrinho">
+      🛒
+      <span class="nav-cart-bubble" id="cartBubble">0</span>
+    </button>
+    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+fazer+um+pedido+na+Bella+Massa+%F0%9F%8D%95" class="nav-cta" target="_blank" rel="noopener">Peça Agora</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="mobile-close" id="mobileClose">✕</span>
+  <a href="#cardapio" class="mm-link">Cardápio</a>
+  <a href="#diferenciais" class="mm-link">Diferenciais</a>
+  <a href="#depoimentos" class="mm-link">Avaliações</a>
+  <a href="#sobre" class="mm-link">Sobre</a>
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+fazer+um+pedido+na+Bella+Massa+%F0%9F%8D%95" class="btn-primary" target="_blank" rel="noopener">Peça Agora 🍕</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg" role="img" aria-label="Pizza artesanal Bella Massa"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Pizzaria Artesanal Premium · Desde 2010</div>
+    <h1 class="hero-h1">A melhor pizza<br><em>artesanal</em><br>da cidade.</h1>
+    <p class="hero-sub">Massa longa fermentação, ingredientes importados e muito amor em cada fatia. Feitas na hora, entregues na sua porta.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+fazer+um+pedido+na+Bella+Massa+%F0%9F%8D%95" class="btn-primary" target="_blank" rel="noopener" aria-label="Pedir pizza no WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Peça Agora no WhatsApp
+      </a>
+      <a href="#cardapio" class="btn-ghost" aria-label="Ver cardápio completo">
+        Ver Cardápio →
+      </a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">14+</div><div class="stat-l">Anos de tradição</div></div>
+    <div class="stat"><div class="stat-n">4.9★</div><div class="stat-l">Avaliação média</div></div>
+    <div class="stat"><div class="stat-n">40min</div><div class="stat-l">Entrega média</div></div>
+  </div>
+</section>
+
+<!-- CARDÁPIO -->
+<section id="cardapio">
+  <div class="menu-header reveal">
+    <span class="section-label">Nosso Cardápio</span>
+    <h2 class="section-title">Escolha a sua favorita</h2>
+    <p class="section-sub">Cada pizza é preparada com ingredientes frescos e massa fermentada por 48 horas.</p>
+  </div>
+  <div class="filter-tabs reveal">
+    <button class="tab active" data-filter="tradicionais">🍅 Tradicionais</button>
+    <button class="tab" data-filter="especiais">⭐ Especiais</button>
+    <button class="tab" data-filter="bebidas">🥤 Bebidas</button>
+  </div>
+  <div class="menu-grid" id="menuGrid">
+
+    <!-- ══ TRADICIONAIS ══ -->
+    <div class="card show" data-cat="tradicionais"
+         data-name="Margherita Clássica" data-price="52"
+         data-img="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80" alt="Pizza Margherita – molho San Marzano, mussarela de búfala e manjericão" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Margherita Clássica</h3>
+        <p class="card-desc">Molho de tomate San Marzano, mussarela de búfala DOP e folhas de manjericão fresco.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;52 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Margherita ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Margherita+Cl%C3%A1ssica" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Margherita pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card show" data-cat="tradicionais"
+         data-name="Calabresa da Casa" data-price="48"
+         data-img="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Pizza Calabresa com linguiça defumada e cebola roxa" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Calabresa da Casa</h3>
+        <p class="card-desc">Linguiça calabresa defumada artesanal, cebola roxa caramelizada, azeitonas e orégano fresco.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;48 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Calabresa ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Calabresa+da+Casa" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Calabresa pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card show" data-cat="tradicionais"
+         data-name="Quatro Queijos" data-price="58"
+         data-img="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" alt="Pizza Quatro Queijos – mussarela, gorgonzola, provolone e parmesão" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Quatro Queijos</h3>
+        <p class="card-desc">Mussarela de búfala, gorgonzola DOP, provolone defumado e parmesão reggiano. Sem molho.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;58 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Quatro Queijos ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Quatro+Queijos" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Quatro Queijos pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card show" data-cat="tradicionais"
+         data-name="Portuguesa" data-price="54"
+         data-img="https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80" alt="Pizza Portuguesa com ovos, presunto, cebola e azeitonas" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Portuguesa</h3>
+        <p class="card-desc">Molho artesanal, mussarela, ovos caipiras, presunto, cebola, ervilhas e azeitonas pretas.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;54 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Portuguesa ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Portuguesa" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Portuguesa pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card show" data-cat="tradicionais"
+         data-name="Napolitana" data-price="50"
+         data-img="https://images.unsplash.com/photo-1576458088443-04a19bb13da6?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1576458088443-04a19bb13da6?w=600&q=80" alt="Pizza Napolitana com tomate, alho e aliche" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Napolitana</h3>
+        <p class="card-desc">Molho de tomate, mussarela, rodelas de tomate fresco, alho laminado, aliche e alcaparras.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;50 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Napolitana ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Napolitana" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Napolitana pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card show" data-cat="tradicionais"
+         data-name="Pepperoni Crocante" data-price="56"
+         data-img="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&q=80" alt="Pizza de Pepperoni crocante com molho de tomate e mussarela" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Pepperoni Crocante</h3>
+        <p class="card-desc">Molho artesanal, mussarela fior di latte e farto pepperoni americano tostado nas bordas.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;56 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Pepperoni ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Pepperoni+Crocante" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Pepperoni pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ ESPECIAIS ══ -->
+    <div class="card" data-cat="especiais" style="display:none"
+         data-name="Trufada Bella" data-price="79"
+         data-img="https://images.unsplash.com/photo-1595854341625-f33ee10dbf1f?w=600&q=80">
+      <div class="card-img">
+        <div class="card-badge">🔥 Mais Pedida</div>
+        <img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf1f?w=600&q=80" alt="Pizza Trufada com cogumelos e trufa negra" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Trufada Bella</h3>
+        <p class="card-desc">Creme de trufa negra, cogumelos Paris e shitake salteados, mussarela de búfala e azeite trufado.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;79 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Trufada ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Trufada+Bella" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Trufada pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="especiais" style="display:none"
+         data-name="Parma & Rúcula" data-price="74"
+         data-img="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80">
+      <div class="card-img">
+        <div class="card-badge">Chef's Pick</div>
+        <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80" alt="Pizza Parma com presunto San Daniele e rúcula selvagem" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Parma & Rúcula</h3>
+        <p class="card-desc">Molho de tomate, mussarela de búfala, presunto San Daniele, rúcula selvagem e lascas de parmesão.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;74 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Parma ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Parma+%26+R%C3%BAcula" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Parma pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="especiais" style="display:none"
+         data-name="Frango Catupiry" data-price="62"
+         data-img="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=600&q=80" alt="Pizza de Frango com Catupiry original" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Frango Catupiry</h3>
+        <p class="card-desc">Frango desfiado temperado com ervas finas, catupiry original cremoso, milho verde e páprica defumada.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;62 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Frango Catupiry ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Frango+Catupiry" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Frango Catupiry pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="especiais" style="display:none"
+         data-name="Camarão ao Alho" data-price="89"
+         data-img="https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=600&q=80">
+      <div class="card-img">
+        <div class="card-badge">🦐 Premium</div>
+        <img src="https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=600&q=80" alt="Pizza de Camarão ao Alho com catupiry e salsa" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Camarão ao Alho</h3>
+        <p class="card-desc">Camarão rosa refogado no azeite com alho dourado, catupiry, requeijão e salsa fresca.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;89 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Camarão ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Camar%C3%A3o+ao+Alho" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Camarão pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="especiais" style="display:none"
+         data-name="Vegana da Horta" data-price="65"
+         data-img="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=600&q=80">
+      <div class="card-img">
+        <div class="card-badge">🌱 Vegana</div>
+        <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=600&q=80" alt="Pizza Vegana com legumes frescos, pesto e azeite" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Vegana da Horta</h3>
+        <p class="card-desc">Pesto de manjericão, abobrinha grelhada, pimentões coloridos, cogumelos, tomate-cereja e rúcula fresca.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;65 <span>/ média</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Vegana ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+pedir+uma+Vegana+da+Horta" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Vegana pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ BEBIDAS ══ -->
+    <div class="card" data-cat="bebidas" style="display:none"
+         data-name="Coca-Cola Long Neck" data-price="8"
+         data-img="https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=600&q=80" alt="Coca-Cola Long Neck gelada 355ml" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Coca-Cola Long Neck</h3>
+        <p class="card-desc">Gelada, 355ml. Perfeita para acompanhar qualquer pizza.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;8 <span>/ unid.</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Coca-Cola ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+adicionar+uma+Coca-Cola" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir Coca-Cola pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="bebidas" style="display:none"
+         data-name="Suco Natural 500ml" data-price="14"
+         data-img="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=600&q=80" alt="Suco natural de laranja espremido na hora 500ml" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Suco Natural</h3>
+        <p class="card-desc">Laranja, maracujá ou limão. Espremido na hora, 500ml. Sem adição de açúcar.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;14 <span>/ 500ml</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Suco ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+adicionar+um+Suco+Natural" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir suco pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="bebidas" style="display:none"
+         data-name="Água Mineral 500ml" data-price="5"
+         data-img="https://images.unsplash.com/photo-1560023907-5f339617ea30?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1560023907-5f339617ea30?w=600&q=80" alt="Garrafa de água mineral gelada" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Água Mineral</h3>
+        <p class="card-desc">Com ou sem gás. 500ml gelada. Opção com limão e menta disponível.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;5 <span>/ 500ml</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Água ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+adicionar+uma+%C3%81gua+Mineral" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir água pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="bebidas" style="display:none"
+         data-name="Cerveja Artesanal 473ml" data-price="18"
+         data-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Cerveja artesanal gelada 473ml" loading="lazy" />
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Cerveja Artesanal</h3>
+        <p class="card-desc">Lata 473ml. Opções: Lager suave, IPA lupulada ou Weiss encorpada. Sempre geladas.</p>
+        <div class="card-actions">
+          <div class="card-price">R$&nbsp;18 <span>/ 473ml</span></div>
+          <button class="btn-add-cart" onclick="addToCart(this)" aria-label="Adicionar Cerveja ao carrinho">+ Carrinho</button>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+adicionar+uma+Cerveja+Artesanal" class="btn-wpp-sm" target="_blank" rel="noopener" aria-label="Pedir cerveja pelo WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section id="diferenciais">
+  <div class="diff-wrap">
+    <div class="diff-img reveal-left">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80" alt="Chef pizzaiolo preparando pizza artesanal no forno a lenha" loading="lazy" />
+    </div>
+    <div class="reveal-right">
+      <span class="section-label">Por que Bella Massa?</span>
+      <h2 class="section-title">O que nos torna<br><em style="font-style:italic;color:var(--red)">diferentes</em></h2>
+      <div class="diff-list">
+        <div class="diff-item">
+          <div class="diff-icon" aria-hidden="true">🌾</div>
+          <div class="diff-text">
+            <h4>Ingredientes Selecionados</h4>
+            <p>Importamos tomates San Marzano, mussarela DOP e azeite extravirgem diretamente da Itália. Sem atalhos.</p>
+          </div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-icon" aria-hidden="true">⏱️</div>
+          <div class="diff-text">
+            <h4>Entrega em até 40 Minutos</h4>
+            <p>Nossos entregadores são treinados para manter a pizza quente e crocante do forno à sua mesa.</p>
+          </div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-icon" aria-hidden="true">🔥</div>
+          <div class="diff-text">
+            <h4>Forno a Lenha Importado</h4>
+            <p>Nossas pizzas são assadas a 450°C em forno napolitano importado, garantindo a borda perfeita e o sabor autêntico.</p>
+          </div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-icon" aria-hidden="true">🧑‍🍳</div>
+          <div class="diff-text">
+            <h4>Massa Fermentada 48h</h4>
+            <p>Cada bola de massa fermenta por dois dias, resultando em uma textura leve, digestiva e com sabor inconfundível.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos">
+  <div class="dep-header reveal">
+    <span class="section-label">Avaliações</span>
+    <h2 class="section-title">O que nossos clientes dizem</h2>
+    <p class="section-sub">Mais de 2.000 pedidos por mês e 98% de satisfação. Veja o que a galera fala.</p>
+  </div>
+  <div class="dep-grid">
+    <div class="dep-card reveal">
+      <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+      <p class="dep-text">"A melhor pizza que já comi na minha vida. A massa é perfeita, fininha e crocante. Peço toda semana e nunca decepciona!"</p>
+      <div class="dep-author">
+        <div class="dep-avatar" aria-hidden="true">A</div>
+        <div><div class="dep-name">Ana Paula M.</div><div class="dep-loc">📍 Moema, SP</div></div>
+      </div>
+    </div>
+    <div class="dep-card reveal" style="transition-delay:.1s">
+      <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+      <p class="dep-text">"Entrega super rápida e pizza quentinha. A trufada é de outro nível! Recomendo demais pra quem quer qualidade de verdade."</p>
+      <div class="dep-author">
+        <div class="dep-avatar" aria-hidden="true">R</div>
+        <div><div class="dep-name">Rafael S.</div><div class="dep-loc">📍 Vila Mariana, SP</div></div>
+      </div>
+    </div>
+    <div class="dep-card reveal" style="transition-delay:.2s">
+      <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+      <p class="dep-text">"Finalmente uma pizzaria que usa ingredientes de verdade! O Parma com rúcula é incrível. Atendimento pelo WhatsApp é muito prático."</p>
+      <div class="dep-author">
+        <div class="dep-avatar" aria-hidden="true">C</div>
+        <div><div class="dep-name">Camila R.</div><div class="dep-loc">📍 Pinheiros, SP</div></div>
+      </div>
+    </div>
+    <div class="dep-card reveal" style="transition-delay:.3s">
+      <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+      <p class="dep-text">"Fiz meu aniversário com a Bella Massa e foi um sucesso total. Todos elogiaram demais. Com certeza vou pedir de novo!"</p>
+      <div class="dep-author">
+        <div class="dep-avatar" aria-hidden="true">M</div>
+        <div><div class="dep-name">Marcos T.</div><div class="dep-loc">📍 Itaim Bibi, SP</div></div>
+      </div>
+    </div>
+    <div class="dep-card reveal" style="transition-delay:.15s">
+      <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+      <p class="dep-text">"A calabresa deles é absurda de boa. Pedi no WhatsApp e em 35 minutos estava na minha porta. Simplesmente perfeito!"</p>
+      <div class="dep-author">
+        <div class="dep-avatar" aria-hidden="true">F</div>
+        <div><div class="dep-name">Fernanda L.</div><div class="dep-loc">📍 Mooca, SP</div></div>
+      </div>
+    </div>
+    <div class="dep-card reveal" style="transition-delay:.25s">
+      <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+      <p class="dep-text">"Preço justo para uma qualidade premium. Você percebe que os ingredientes são de verdade. Minha família adorou, virou tradição!"</p>
+      <div class="dep-author">
+        <div class="dep-avatar" aria-hidden="true">G</div>
+        <div><div class="dep-name">Gustavo A.</div><div class="dep-loc">📍 Brooklin, SP</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="sobre-wrap">
+    <div class="sobre-imgs reveal-left">
+      <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=800&q=80" alt="Interior da Pizzaria Bella Massa, ambiente aconchegante" loading="lazy" />
+      <img src="https://images.unsplash.com/photo-1600628421055-4d30de868b8f?w=600&q=80" alt="Pizzaiolo abrindo a massa artesanal à mão" loading="lazy" />
+      <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=600&q=80" alt="Ingredientes frescos selecionados para as pizzas Bella Massa" loading="lazy" />
+    </div>
+    <div class="sobre-content reveal-right">
+      <span class="section-label">Nossa História</span>
+      <h2 class="section-title">Feita com amor<br>desde <em style="font-style:italic;color:var(--red)">2010</em></h2>
+      <p>A Bella Massa nasceu de um sonho simples: oferecer às pessoas a experiência de comer uma pizza <strong>de verdade</strong>. Não aquelas de massa borrachuda e molho industrializado. Uma pizza honesta, com alma italiana e coração brasileiro.</p>
+      <p>Nossa fundadora, Lucia Ferretti, filha de imigrantes calabreses, aprendeu a arte da pizza com o avô ainda criança em São Paulo. Em 2010, com uma batedeira, um forno importado e muita coragem, abriu as portas do que hoje é a pizzaria favorita de milhares de famílias.</p>
+      <p>Cada pizza que sai da nossa cozinha carrega <strong>14 anos de aperfeiçoamento</strong>, ingredientes cuidadosamente escolhidos e o orgulho de quem ama o que faz.</p>
+      <span class="sobre-tag">🏆 Melhor Pizzaria do Bairro – Prêmio Sabor SP 2023</span>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="cta-final">
+  <div class="cta-inner reveal">
+    <span class="section-label">Bora pedir?</span>
+    <h2 class="section-title">Sua pizza perfeita<br>está a um clique</h2>
+    <p class="section-sub">Peça agora pelo WhatsApp e receba em até 40 minutos. Atendemos de terça a domingo, das 18h às 23h.</p>
+    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+fazer+um+pedido+na+Bella+Massa+%F0%9F%8D%95" class="btn-white" target="_blank" rel="noopener" aria-label="Fazer pedido pelo WhatsApp">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      Fazer Pedido Agora
+    </a>
+    <p class="cta-note">🕐 Funcionamento: Ter–Dom | 18h às 23h &nbsp;·&nbsp; 🚚 Entrega grátis acima de R$80</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <a href="#hero" class="nav-logo">Bella<span>Massa</span></a>
+      <p>Pizzaria artesanal premium. Feita com ingredientes selecionados, massa de longa fermentação e muito amor em cada fatia.</p>
+    </div>
+    <div class="foot-col">
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#depoimentos">Avaliações</a></li>
+        <li><a href="#sobre">Nossa História</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h5>Contato</h5>
+      <p style="margin-bottom:.5rem;">
+        <a href="https://wa.me/5511999999999" style="color:var(--muted);text-decoration:none;" target="_blank" rel="noopener">📱 (11) 99999-9999</a>
+      </p>
+      <p><a href="/cdn-cgi/l/email-protection#aecdc1c0dacfdac1eecccbc2c2cfc3cfddddcf80cdc1c380ccdc" style="color:var(--muted);text-decoration:none;">✉️ <span class="__cf_email__" data-cfemail="1c7f7372687d68735c7e7970707d717d6f6f7d327f7371327e6e">[email&#160;protected]</span></a></p>
+    </div>
+    <div class="foot-col">
+      <h5>Funcionamento</h5>
+      <p>Terça a Sexta<br><strong style="color:var(--white)">18h – 23h</strong></p>
+      <p style="margin-top:.75rem">Sábado e Domingo<br><strong style="color:var(--white)">17h – 23h30</strong></p>
+      <p style="margin-top:.75rem;font-size:.8rem;">📍 Rua das Acácias, 247<br>Vila Madalena – São Paulo, SP</p>
+    </div>
+  </div>
+  <div class="foot-divider"></div>
+  <div class="foot-bottom">
+    <p>© 2025 Bella Massa. Todos os direitos reservados.</p>
+    <div class="social-links">
+      <a href="#" aria-label="Instagram da Bella Massa">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="#" aria-label="Facebook da Bella Massa">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="https://wa.me/5511999999999" aria-label="WhatsApp da Bella Massa" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- CARRINHO OVERLAY -->
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<!-- CARRINHO SIDEBAR -->
+<aside class="cart-sidebar" id="cartSidebar" aria-label="Carrinho de compras">
+  <div class="cart-header">
+    <div class="cart-title">
+      🛒 Meu Carrinho
+      <span class="cart-count-badge" id="cartCountBadge">0</span>
+    </div>
+    <button class="cart-close" id="cartCloseBtn" aria-label="Fechar carrinho">✕</button>
+  </div>
+  <div class="cart-items" id="cartItemsList">
+    <div class="cart-empty" id="cartEmpty">
+      <span class="cart-empty-icon">🍕</span>
+      <p>Seu carrinho está vazio.<br>Adicione itens do cardápio!</p>
+    </div>
+  </div>
+  <div class="cart-footer" id="cartFooter" style="display:none">
+    <div class="cart-subtotal">
+      <span>Subtotal</span>
+      <span id="cartSubtotal">R$ 0,00</span>
+    </div>
+    <div class="cart-subtotal">
+      <span>🚚 Entrega</span>
+      <span id="cartDelivery">Grátis acima de R$80</span>
+    </div>
+    <div class="cart-total-row">
+      <span>Total</span>
+      <span class="cart-total-val" id="cartTotal">R$ 0,00</span>
+    </div>
+    <button class="btn-checkout" id="btnCheckout" aria-label="Finalizar pedido pelo WhatsApp">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      Pedir pelo WhatsApp
+    </button>
+  </div>
+</aside>
+
+<!-- FAB CARRINHO (mobile) -->
+<div class="cart-fab" id="cartFab">
+  <button class="cart-fab-btn" id="cartFabBtn">
+    🛒 Ver Carrinho · <span id="cartFabTotal">R$ 0,00</span>
+  </button>
+</div>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/5511999999999?text=Ol%C3%A1!+Quero+fazer+um+pedido+na+Bella+Massa+%F0%9F%8D%95" class="wpp-float" target="_blank" rel="noopener" aria-label="Abrir WhatsApp para pedir pizza">
+  <span class="wpp-tooltip">Peça pelo WhatsApp!</span>
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.997l6.305-1.654A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.686-.5-5.228-1.377l-.374-.22-3.743.981.999-3.648-.243-.375A9.972 9.972 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
