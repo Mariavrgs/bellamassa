@@ -7,9 +7,7 @@ Projeto 100% front-end, leve, rápido e pronto para produção — ideal para ne
 ---
 
 ## ✨ Preview do Projeto
-
-> 💡 Dica: adicione aqui um print ou GIF do projeto rodando
-> (isso aumenta MUITO o impacto no portfólio)
+<img width="2589" height="1617" alt="download" src="https://github.com/user-attachments/assets/1146bfae-3214-4d16-bbd7-a5a9335f8fea" />
 
 ---
 
