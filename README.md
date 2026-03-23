@@ -15,7 +15,7 @@ Projeto 100% front-end, leve, rápido e pronto para produção — ideal para ne
 
 ## 🚀 Demonstração
 
-* 🔗 Deploy: *(adicione aqui o link quando publicar)*
+* 🔗 Deploy: *(https://bellamassa-self.vercel.app/#hero)*
 * 💬 Pedido direto via WhatsApp integrado
 
 ---
